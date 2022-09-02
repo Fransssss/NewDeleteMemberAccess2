@@ -1,5 +1,7 @@
 // Fransiskus Agapa
 
+// Food Class Declaration
+
 #ifndef NEWDELETEMEMBERACCESS2_FASTFOOD_H
 #define NEWDELETEMEMBERACCESS2_FASTFOOD_H
 
