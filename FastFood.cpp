@@ -1,5 +1,7 @@
 // Fransiskus Agapa
 
+// Food Class' Declaration
+
 #include "FastFood.h"
 #include "sstream"
 
