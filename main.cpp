@@ -74,7 +74,7 @@ int main()
             }
             else
             {
-                fastFood = new FastFood;                              // default constructor called
+                fastFood = new FastFood;                                                               // default constructor called
                 cout << "\nFast Food: " << fastFood->GetName() << endl;
                 cout << "Price: " << fastFood->GetPrice() << endl;
                 cout << "Taste Rating: " << fastFood->GetTasteRating() << endl;
@@ -94,6 +94,8 @@ int main()
         cout << "choice: ";
         cin >> choice;
     }
+    
+    delete fastFood;                                                                                // Free / deallocate allocated memory
 
     if(choice == "e" or choice == "E")
     {
